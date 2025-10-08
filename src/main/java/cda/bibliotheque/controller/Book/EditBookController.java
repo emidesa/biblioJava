@@ -50,7 +50,7 @@ public class EditBookController {
     }
 
     public EditBookController() {
-        // Constructeur par défaut
+      
     }
 
     public void setBook(Book book) {
