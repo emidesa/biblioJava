@@ -23,7 +23,7 @@ public class Author {
         this.id = id;
         this.lastname = lastname;
         this.firstname = firstname;
-        // Convert java.util.Date to LocalDate via Instant
+       
         if (bornAt != null) {
             this.born_at = new java.sql.Date(bornAt.getTime()).toLocalDate();
         } else {
