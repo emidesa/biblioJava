@@ -12,6 +12,10 @@ public class PrimaryController {
         App.setRoot("authors/authors");
     }
     @FXML
+    private void switchToEditors() throws IOException {
+        App.setRoot("editors/editors");
+    }
+    @FXML
     private void switchToBooks() throws IOException {
         App.setRoot("books/books");
     }

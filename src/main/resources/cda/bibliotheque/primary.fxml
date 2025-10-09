@@ -35,10 +35,18 @@
 <VBox alignment="CENTER" prefHeight="230.0" prefWidth="759.0" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cda.bibliotheque.controller.PrimaryController">
    <children>
       <Label text="Primary View" />
+<<<<<<< HEAD
+        
+        <Button text="Gérer les Auteurs" onAction="#switchToAuthors" 
+                style="-fx-font-size: 14px; -fx-pref-width: 200px;" />
+        
+        <Button text="Gérer les Éditeurs" onAction="#switchToEditors" 
+=======
        <Button text="Gérer les Auteurs" onAction="#switchToAuthors" 
                 style="-fx-font-size: 14px; -fx-pref-width: 200px;" />
         
         <Button text="Gérer les Clients" onAction="#switchToClients" 
+>>>>>>> main
                 style="-fx-font-size: 14px; -fx-pref-width: 200px;" />
    </children>
    <padding>
